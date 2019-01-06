@@ -1,3 +1,3 @@
 # flask-echo
 
-Simple, dockerized flask echo app
+Simple, "dockerized" Flask echo app
