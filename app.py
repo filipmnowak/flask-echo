@@ -1,10 +1,12 @@
 import os
+from elasticapm.contrib.flask import ElasticAPM
 from flask import Flask
 from flask import request
 from pprint import pformat
 
 
 app = Flask(__name__)
+apm = ElasticAPM(app)
 
 
 @app.route("/", defaults={'path': ''}, methods=['GET', 'POST', 'HEAD'])
