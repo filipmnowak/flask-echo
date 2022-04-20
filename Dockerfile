@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND='noninteractive'
 COPY app.py /var/www/app/app.py
 COPY tests /var/www/app/tests

@@ -1,2 +1,2 @@
-Flask==1.0.2
-pycodestyle==2.4.0
+Flask==2.1.1
+pycodestyle==2.8.0
